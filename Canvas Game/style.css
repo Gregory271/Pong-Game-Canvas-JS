@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+h1{
+    background-color:#333333;
+    color:white;
+    text-align:center;
+    width:10vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#my-canvas{
+    display:block;
+    margin:0;
+    padding:0;
+/*    width:100%;
+    height:100%;*/
+}
+.game-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    height:300px;
+    background-color:#222222;
+}
+canvas{
+    margin:0;
+    padding:0;
+}
+
+.tracker-container{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.start-button{
+    width:30vw;
+}
+.start-button h1{
+    margin:0;
+}
