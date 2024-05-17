@@ -8,8 +8,7 @@ h1{
     color:white;
     text-align:center;
     width:10vw;
-    margin-left:auto;
-    margin-right:auto;
+ 
 }
 #my-canvas{
     display:block;
@@ -40,8 +39,28 @@ canvas{
 }
 
 .start-button{
-    width:30vw;
+    display:block;
+    width:10vw;
 }
 .start-button h1{
     margin:0;
+}
+.reset-button h1{
+    margin:0;
+}
+.reset-button{
+    display:none;
+    width:10vw;
+}
+.start-button,.reset-button{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.game-over-screen{
+    width:100vw;
+    height:auto;
+    display:none;
 }
