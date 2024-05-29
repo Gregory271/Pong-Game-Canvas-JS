@@ -25,18 +25,13 @@ h1{
     margin-right:auto;
     width:600px;
     height:300px;
-    background-color:#222222;
+    background-color:#EEEEEE;
 }
 canvas{
     margin:0;
     padding:0;
 }
 
-.tracker-container{
-    width:600px;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 .start-button{
     display:block;
@@ -60,7 +55,26 @@ canvas{
 }
 
 .game-over-screen{
-    width:100vw;
-    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:60vh;
+    display:none;
+}
+
+.text-container{
+    display:flex;
+    justify-content:center;
+}
+
+.text-container div{
+    width:15vw;
+    text-align:left;
+    
+
+}
+
+#game-over-music{
     display:none;
 }
